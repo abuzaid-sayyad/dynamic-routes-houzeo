@@ -1,0 +1,54 @@
+@import './base.css';
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+h1, h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #374151;
+  text-align: center;
+  margin-bottom: 16px;
+}
+p strong{
+  color: #16a34a;
+}
+.categories{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+.categories .category-name{
+  width: 33.33%;
+  display: block;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  font-size: 18px;
+  font-weight: 500;
+}
+.categories .category-name .subcategories{
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+.categories .category-name .subcategories .subcategory-name{
+  font-size: 16px;
+  font-weight: 400;
+  color: #6366f1;
+  cursor: pointer;
+  padding: 8px 0;
+}
+.categories .category-name .subcategories .subcategory-name:hover{
+  color: #1e40af;
+}

@@ -1,0 +1,16 @@
+html{
+    background-color: #f3f4f6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+}
